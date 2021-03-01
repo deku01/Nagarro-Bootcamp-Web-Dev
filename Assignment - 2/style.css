@@ -1,3 +1,24 @@
 h1 {
     color:sandybrown;
 }
+
+div {
+    position: sticky;
+    background-color: peachpuff;
+    border: 1px solid lightsalmon;
+    padding: 2px 10px;
+    font-size: large;
+    top: 0;
+}
+
+ul {
+    list-style-type: "\1F4DE";
+}
+
+li {
+    border-top:  solid #CCC;
+}
+
+/* li::before {
+    content: "\1F4DE";
+} */
