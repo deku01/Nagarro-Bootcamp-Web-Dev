@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: skyblue;
+}
+
+section {
+  width: 600px;
+  min-height: 450px;
+  /* border: 2px solid #ccc; */
+  margin: 50px auto;
+}
+
+h1 {
+  background: linear-gradient(to right, #21dbf3, #e208ff, #66913f, #eedd44);
+  text-align: center;
+  color: #21c9f3;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-bottom: 2px solid gray;
+  padding: 10px 10px 10px 15px;
+  background: rgb(109, 155, 207);
+}
+
+#addToDo {
+  margin: 25px auto;
+  /* text-align: center; */
+  /* border: 2px solid green; */
+}
+
+#addToDo input[type="text"] {
+  font-size: 1.2rem;
+  padding: 5px 5px 5px 10px;
+  width: 90%;
+}
+
+#addToDo input[type="text"]:focus {
+  border-color: #303085;
+}
+
+#addToDo button {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  color: white;
+  background: #70b3ff;
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+#addToDo button:hover {
+  opacity: 0.7;
+}
+
+#list li span,
+#list li input[type="text"] {
+  margin: 0 0 5px;
+  width: 75%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#list li input[type="text"] {
+  color: #333;
+}
+
+#list li button {
+  font-size: 1rem;
+  margin: 0 0.25rem;
+  border-radius: 3px;
+  padding: 5px 5px;
+  color: white;
+  background: #70b3ff;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+#list li button:last-child {
+  background: #ff7f7f;
+}
+
+#list li button:hover {
+  opacity: 0.7;
+}
